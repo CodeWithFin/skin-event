@@ -222,7 +222,7 @@ const SpinToWin = () => {
                     ⏰ Come Back Tomorrow!
                   </h3>
                   <p className="text-yellow-600 mb-4">
-                    You've already spun today. Come back tomorrow for another chance to win!
+                    You&apos;ve already spun today. Come back tomorrow for another chance to win!
                   </p>
                   <button
                     onClick={resetSpin}

@@ -3,8 +3,9 @@ import { NextRequest, NextResponse } from 'next/server'
 // Simple placeholder image API for demonstration
 export async function GET(
   request: NextRequest,
-  { params }: { params: { dimensions: string } }
+  context: { params: Promise<{ dimensions: string }> }
 ) {
+  const params = await context.params
   const dimensions = params.dimensions
   const [width, height] = dimensions.split('x').map(Number)
   

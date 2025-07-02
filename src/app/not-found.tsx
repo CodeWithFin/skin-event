@@ -1,3 +1,5 @@
+'use client'
+
 export default function NotFound() {
   return (
     <div className="min-h-screen p-4 md:p-8 flex items-center justify-center">
@@ -7,7 +9,7 @@ export default function NotFound() {
           Page Not Found
         </h2>
         <p className="text-brand-charcoal mb-6">
-          Oops! The page you're looking for doesn't exist. Let's get you back to the beautiful event experience.
+          Oops! The page you&apos;re looking for doesn&apos;t exist. Let&apos;s get you back to the beautiful event experience.
         </p>
         <button
           onClick={() => window.location.href = '/'}

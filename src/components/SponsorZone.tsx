@@ -148,7 +148,7 @@ const SponsorZone = () => {
             🤝 Our Amazing Sponsors
           </h1>
           <p className="text-lg text-brand-charcoal max-w-2xl mx-auto">
-            Meet our incredible partners who make this event possible. Don't miss their exclusive offers!
+            Meet our incredible partners who make this event possible. Don&apos;t miss their exclusive offers!
           </p>
         </div>
 
@@ -256,7 +256,7 @@ const SponsorZone = () => {
         <div className="card mt-12 bg-gradient-to-r from-brand-pink to-brand-peach">
           <div className="text-center">
             <h2 className="text-2xl font-bold text-brand-brown mb-4">
-              🎊 Today's Special Offers
+              🎊 Today&apos;s Special Offers
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
               <div className="bg-white/80 rounded-lg p-4">
@@ -284,7 +284,7 @@ const SponsorZone = () => {
             🙏 Thank You to Our Sponsors
           </h3>
           <p className="text-brand-charcoal max-w-2xl mx-auto">
-            We're grateful to all our sponsors and partners who make the Vitapharm Beauty & Academy Launch possible. 
+            We&apos;re grateful to all our sponsors and partners who make the Vitapharm Beauty & Academy Launch possible. 
             Their support helps us bring you this amazing experience with exclusive offers, premium products, and expert insights.
           </p>
         </div>

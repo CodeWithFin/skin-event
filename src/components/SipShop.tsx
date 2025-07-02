@@ -48,10 +48,6 @@ const SipShop = () => {
     setCart([...cart, item])
   }
 
-  const removeFromCart = (itemId: number) => {
-    setCart(cart.filter(item => item.id !== itemId))
-  }
-
   const getTotalPrice = () => {
     return cart.reduce((total, item) => total + item.price, 0)
   }
