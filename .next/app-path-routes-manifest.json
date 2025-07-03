@@ -1,6 +1,0 @@
-{
-  "/api/placeholder/[dimensions]/route": "/api/placeholder/[dimensions]",
-  "/page": "/",
-  "/register/page": "/register",
-  "/_not-found/page": "/_not-found"
-}

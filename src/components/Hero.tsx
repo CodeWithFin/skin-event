@@ -1,10 +1,14 @@
 'use client'
 
+import { useLanguage } from './LanguageProvider'
+
 interface HeroProps {
   setActiveSection?: (section: string) => void
 }
 
 const Hero = ({ setActiveSection }: HeroProps) => {
+  const { t } = useLanguage()
+  
   return (
     <div className="relative min-h-screen gradient-bg flex items-center justify-center">
       {/* Background Pattern */}
@@ -18,13 +22,13 @@ const Hero = ({ setActiveSection }: HeroProps) => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
         {/* Main Title */}
         <h1 className="text-5xl md:text-7xl font-bold text-brand-brown mb-6">
-          Vitapharm Beauty
-          <span className="block text-brand-burgundy">& Academy Launch</span>
+          {t('hero.title')}
+          <span className="block text-brand-burgundy">{t('hero.subtitle')}</span>
         </h1>
 
         {/* Subtitle */}
         <p className="text-xl md:text-2xl text-brand-charcoal mb-8 font-medium">
-          Join us for an unforgettable beauty experience
+          {t('hero.description')}
         </p>
 
         {/* Event Details */}
@@ -52,7 +56,7 @@ const Hero = ({ setActiveSection }: HeroProps) => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button 
             className="btn-primary text-lg px-8 py-3"
-            onClick={() => window.location.href = '/register'}
+            onClick={() => setActiveSection?.('register')}
           >
             🎫 Register Now
           </button>

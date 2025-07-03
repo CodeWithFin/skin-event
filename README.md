@@ -1,8 +1,44 @@
-# Vitapharm Beauty & Academy Launch Event Web App
+# Vitapharm Beauty & Academy Launch Event App
 
-A comprehensive event web application for the Vitapharm Beauty & Academy Launch happening on July 5, 2025.
+A comprehensive web application for the Vitapharm Beauty & Academy launch event scheduled for July 5, 2025. This modern, responsive application provides a complete event experience with real-time features, e-commerce capabilities, and interactive engagement tools.
 
-## Features
+## 🌟 Features
+
+### ✅ Core Event Features (All Implemented)
+- **📅 Real-time Event Schedule** - Interactive timetable with current session tracking and countdown
+- **📸 HD Photo Gallery** - Real-time photo uploads with likes and moderation
+- **🛍️ Sip & Shop** - Complete e-commerce with products, courses, and treatments
+- **🎮 Spin & Win** - Interactive prize wheel game with rewards
+- **💬 Live Chat** - Real-time messaging with emoji reactions and file sharing
+- **📝 Registration System** - Google Form integration with QR code generation
+- **📱 QR Code Check-In** - Digital check-in system for registered attendees
+- **📊 Live Polls & Reactions** - Real-time audience engagement and voting
+- **📰 Event Highlights** - Live news feed with announcements and updates
+
+### ✅ Advanced Features (All Implemented)  
+- **🏆 Leaderboard & Social Wall** - Real-time user rankings based on engagement
+- **� Post-Event Memory Mode** - Event recap, photo gallery, and feedback collection
+- **🌍 Multilingual Support** - English/Kiswahili language switching
+- **📱 Responsive Navigation** - Organized mobile-first navigation
+- **⚡ Real-time Backend** - Supabase integration for live updates
+- **🔄 Loading Screen** - Polished app initialization experience
+- **🎨 Brand-Consistent UI** - Vitapharm brand colors and modern design
+
+### 🚫 Removed Features (As Requested)
+- ❌ **Sponsor Zone** - Removed completely
+- ❌ **Admin Dashboard** - Removed for user-focused experience
+
+## 🛠️ Technology Stack
+
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Backend:** Supabase (Real-time database)
+- **QR Code:** react-qr-code, qrcode
+- **Real-time:** Supabase Realtime subscriptions
+- **Internationalization:** Custom i18n implementation
+- **Development:** ESLint, Prettier
+- **Deployment:** Vercel-ready
 
 ### 🎯 Core Features
 - **Real-time Event Timetable** - Live schedule with current session highlighting and countdown

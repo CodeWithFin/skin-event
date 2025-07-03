@@ -1,6 +1,8 @@
 'use client'
 
-import { useState, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
+import { supabase, Photo as SupabasePhoto } from '@/lib/supabase'
+import { useLanguage } from './LanguageProvider'
 
 interface Photo {
   id: number

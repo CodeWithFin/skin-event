@@ -1,6 +1,8 @@
 'use client'
 
 import { useState, useEffect, useRef } from 'react'
+import { supabase, ChatMessage } from '@/lib/supabase'
+import { useLanguage } from './LanguageProvider'
 
 interface Message {
   id: number

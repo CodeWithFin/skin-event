@@ -1,6 +1,4 @@
 {
-  "/api/placeholder/[dimensions]/route": "app/api/placeholder/[dimensions]/route.js",
   "/page": "app/page.js",
-  "/register/page": "app/register/page.js",
   "/_not-found/page": "app/_not-found/page.js"
 }
